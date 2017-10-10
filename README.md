@@ -50,10 +50,11 @@ I tried out really a lot of various layout variations and I came back...
 - combining short solidus overlay: `∅ⱥȺȼȻɇɆłŁøØⱦȾ`
 - grave accent: `àÀèÈìÌòÒùÙǹǸẁẀỳỲ`
 - acute accent: `áÁćĆéÉǵǴíÍḱḰĺĹḿḾńŃóÓṕṔŕŔśŚúÚẃẂ´´ýÝźŹ´`
+- *surprise, surprise: the dead keys are all where you'd expect them to*
 
 ### Windows, .klc
 
-[Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
+Use with [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
 If you will create a linux/mac variation, let me know to link it in.
 
 ### DIY
