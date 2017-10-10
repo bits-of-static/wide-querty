@@ -2,8 +2,6 @@
 
 I tried out really a lot of various layout variations and I came back...
 
-This is what [https://informatik-handwerk.de/greyLiterature/whitepaper/dvorak/unreleasedDraft.html](A Modern Keyboard Layout: wide, prg, num, dead, dvrk, rl) evolved into.
-
 - super trivial to get used to
 - easy on the right pinky & shoulder
 - full(?) internation latin support:
@@ -49,6 +47,10 @@ This is what [https://informatik-handwerk.de/greyLiterature/whitepaper/dvorak/un
 
 ### Windows, .klc
 
-[https://www.microsoft.com/en-us/download/details.aspx?id=22339](Microsoft Keyboard Layout Creator 1.4)
+[Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
 
 If you will create a linux/mac variation, let me know to link it in.
+
+### Background reading
+
+This is what [A Modern Keyboard Layout: wide, prg, num, dead, dvrk, rl](https://informatik-handwerk.de/greyLiterature/whitepaper/dvorak/unreleasedDraft.html) evolved into.
