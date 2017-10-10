@@ -27,6 +27,7 @@ I tried out really a lot of various layout variations and I came back...
 - I swapped the shift on the numerical row, numbers are used more seldom than operators
 - The single quote is more often used in programming than the double, so the double is on the shift
 - comma, period, semicolon, colon grouped and exposed by usage frequency
+- I swapped the shift on curly braces. Array indexes are usually stream-typed.
 
 ### minimal amout of transformations
 
@@ -53,7 +54,6 @@ I tried out really a lot of various layout variations and I came back...
 ### Windows, .klc
 
 [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
-
 If you will create a linux/mac variation, let me know to link it in.
 
 ### DIY
