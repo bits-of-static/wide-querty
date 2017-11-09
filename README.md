@@ -3,17 +3,17 @@
 I tried out really a lot of various layout variations and I came back...
 
 ```
-,----,----,----,----,----,----,----,----,----,----,----,----,----,-------,
-| `~ | !1 | @2 | #3 | $4 | %5 | ^6 | &7 | *8 | \9 | |0 | -_ | =+ | bkspc |
-|----'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,-----|
-| tab  | qQ | wW | eE | rR | tT | [{ | ]} | uU | iI | oO | pP | yY |  /? |
-|------'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--------|
-| caps   | aA | sS | dD | fF | gG | '" | hH | jJ | kK | lL | ,; |  enter |
-|--------'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'-,--'--------|
-| shift    | zZ | xX | cC | vV | (< | )> | nN | mM | bB | .: |     shift |
-'--,------,'-,--'--,-'----'----'----'----'----'--,-'----'-,--,------,----'
-   | ctrl |  | alt |                             |  altgr |  | ctrl |
-   '------   '-----'-----------------------------'--------'  '------'
+,------,------,------,------,------,------,------,------,------,------,------,------,------,---------,
+|  `~  |  !1  |  @2  |  #3  |  $4  |  %5  |  ^6  |  &7  |  *8  |  \9  |  |0  |  -_  |  =+  |  bkspc  |
+|------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,------|
+|  tab    |  q   |  w   |  e   |  r   |  t   |  [{  |  ]}  |  u   |  i   |  o   |  p   |  y   |  /?  |
+|---------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,----------|
+|  caps      |  a   |  s   |  d   |  f   |  g   |  '"  |  h   |  j   |  k   |  l   |  ,;  |  enter   |
+|------------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'----------|
+|  shift        |  z   |  x   |  c   |  v   |  (<  |  )>  |  n   |  m   |  b   |  .:  |       shift  |
+'----,--------,-'---,--'---,--'------'------'------'------'------'----,--'------'--,---,--------,----'
+     |  ctrl  |    |  alt  |                                          |    altgr   |   |  ctrl  |
+     '--------'    '-------'------------------------------------------'------------'   '--------'
 ```
 
 ### I pushed the the right hand one position to the right
@@ -32,10 +32,10 @@ I tried out really a lot of various layout variations and I came back...
 ### minimal amout of transformations
 
 - Y and B moved from inside to the outside
-- backslash(division) `\` on the 9, pipe character `|` on the 0.
-- the question mark and the slash moved as whole to the vicinity of enter
+- backslash `\` on the 9, pipe character `|` on the 0.
+- the question mark and the slash(division) moved as whole to the vicinity of enter
 
-### international support
+### international support (you won't find anywhere more of it - fork me)
 
 - dot above: `ıİȧȦḃḂċĊḋḊėĖḟḞġĠḣḢṁṀṅṄȯȮṗṖṙṘṡṠṫṪẇẆẋẊẏẎżŻ˙`
 - diaeresis: `ßäÄëËḧḦïÏ¨¨öÖẗ¨üÜẅẄẍẌÿŸ¨`
@@ -58,9 +58,12 @@ Use with [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us
 
 If you will create a linux/mac variation, let me know to link it in.
 
-### DIY
+### DIY / even more conformance
 
-In case you are not a programmer or don't want so many extra keys in the middle, make your variation to keep B and Y where expected and move some other keys into the middle.
+- keep B and Y where they were for the sake of less extra keys in the middle
+- keep the numerical row like it is: numbers without shift, operators with shift
+- use standard `;:`-key on middle row pinky position
+- the Microsoft Keyboard Layout Creator is super simple to use
 
 ### Background reading
 
