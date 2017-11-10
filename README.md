@@ -29,7 +29,7 @@ I tried out really a lot of various layout variations and I came back...
 - comma, period, semicolon, colon grouped and exposed by usage frequency
 - I swapped the shift on curly braces. Array indexes are usually stream-typed.
 
-### minimal amout of transformations
+### minimal amount of transformations
 
 - Y and B moved from inside to the outside
 - backslash `\` on the 9, pipe character `|` on the 0.
@@ -37,33 +37,44 @@ I tried out really a lot of various layout variations and I came back...
 
 ### international support (you won't find anywhere more of it - fork me)
 
-- dot above: `ıİȧȦḃḂċĊḋḊėĖḟḞġĠḣḢṁṀṅṄȯȮṗṖṙṘṡṠṫṪẇẆẋẊẏẎżŻ˙`
-- diaeresis: `ßäÄëËḧḦïÏ¨¨öÖẗ¨üÜẅẄẍẌÿŸ¨`
-- circumflex accent: `âÂĉĈêÊĝĜĤģîÎĵĴôÔŝŜÛûŵŴ^^ẑẐ^`
-- caron: `ǎǍčČďĎěĚǧǦȟȞǐǏǰˇǩǨľĽňŇǒǑřŘšŠťŤǔǓˇˇžŽˇˇ`
-- breve: `ăğĂĞ˘`
-- degree sign: `åÅůŮẘ°ẙ°°`
-- cedilla: `ņçģşļķŗţŅÇĢŞĻĶŖŢ¸`
-- ogonek: `ąęųįĄĘŲĮ˛`
-- double acute accent: `űőŰŐ˝`
-- tilde: `ãÃẽẼĩĨñÑõÕũŨṽṼỹỸ˘`
-- combining short solidus overlay: `∅ⱥȺȼȻɇɆłŁøØⱦȾ`
-- grave accent: `àÀèÈìÌòÒùÙǹǸẁẀỳỲ`
-- acute accent: `áÁćĆéÉǵǴíÍḱḰĺĹḿḾńŃóÓṕṔŕŔśŚúÚẃẂ´´ýÝźŹ´`
-- *surprise, surprise: the dead keys are all where you'd expect them to*
+- intuitive expectation
+  - `AlrGr`+`~` tilde `ãÃẽẼĩĨñÑõÕũŨṽṼỹỸ˘`
+  - `AlrGr`+`/` combining short solidus overlay `∅ⱥȺȼȻɇɆłŁøØⱦȾ`
+  - `AlrGr`+`|0` degree sign `åÅůŮẘ°ẙ°°`
+  - `AlrGr`+`!1` a dot above resp. no dot above `ıİȧȦḃḂċĊḋḊėĖḟḞġĠḣḢṁṀṅṄȯȮṗṖṙṘṡṠṫṪẇẆẋẊẏẎżŻ˙`
+  - `AlrGr`+`@2` diaeresis (two dots) `ßäÄëËḧḦïÏ¨¨öÖẗ¨üÜẅẄẍẌÿŸ¨`
+  - `AlrGr`+`^6` circumflex accent `âÂĉĈêÊĝĜĤģîÎĵĴôÔŝŜÛûŵŴ^^ẑẐ^`
+- intuition extension
+  - `AlrGr`+`&7` caron `ǎǍčČďĎěĚǧǦȟȞǐǏǰˇǩǨľĽňŇǒǑřŘšŠťŤǔǓˇˇžŽˇˇ`
+  - `AlrGr`+`*8` breve `ăğĂĞ˘`
+- central "X space"
+  - `AlrGr`+`[{` cedilla `ņçģşļķŗţŅÇĢŞĻĶŖŢ¸`
+  - `AlrGr`+`]}` ogonek `ąęųįĄĘŲĮ˛`
+  - `AlrGr`+`'"` double acute accent `űőŰŐ˝`
+  - `AlrGr`+`(<` grave accent `àÀèÈìÌòÒùÙǹǸẁẀỳỲ`
+  - `AlrGr`+`)>` acute accent `áÁćĆéÉǵǴíÍḱḰĺĹḿḾńŃóÓṕṔŕŔśŚúÚẃẂ´´ýÝźŹ´`
 
-### Windows, .klc file
+There are a couple of missing positions: those are missing in Unicode altogether.
 
+### Usage
+
+- #### Windows, .klc file
 Use with [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
 
-If you will create a linux/mac variation, let me know to link it in.
+- #### Linux, Unbuntu
+The install script rather simple, one-time use only - informs&exits on successive attempts. No uninstall script. No internationalization support yet.
+
+- #### Mac
+Nothing yet - let me know.
 
 ### DIY / even more conformance
 
 - keep B and Y where they were for the sake of less extra keys in the middle
 - keep the numerical row like it is: numbers without shift, operators with shift
 - use standard `;:`-key on middle row pinky position
-- the Microsoft Keyboard Layout Creator is super simple to use
+- standard `\|`-key
+
+Microsoft Keyboard Layout Creator is super simple to use, linux users need to edit just one straightforward file.
 
 ### Background reading
 
