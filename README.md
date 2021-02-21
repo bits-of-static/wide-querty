@@ -1,13 +1,13 @@
 # Programmer's wide-QUERTY keyboard layout
 
-I tried out really a lot of various layout variations and I came back...
-
+I tried out really a lot of various layout variations and I came back...  
+This is what is currently commited:
 ```
 ,------,------,------,------,------,------,------,------,------,------,------,------,------,---------,
 |  `~  |  !1  |  @2  |  #3  |  $4  |  %5  |  ^6  |  &7  |  *8  |  \9  |  |0  |  -_  |  =+  |  bkspc  |
 |------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,------|
 |  tab    |  q   |  w   |  e   |  r   |  t   |  [{  |  ]}  |  u   |  i   |  o   |  p   |  y   |  /?  |
-|---------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,----------|
+|---------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'------|
 |  caps      |  a   |  s   |  d   |  f   |  g   |  '"  |  h   |  j   |  k   |  l   |  ,;  |  enter   |
 |------------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'----------|
 |  shift        |  z   |  x   |  c   |  v   |  (<  |  )>  |  n   |  m   |  b   |  .:  |       shift  |
@@ -69,10 +69,40 @@ Nothing yet - let me know.
 
 ### DIY / even more conformance
 
-- keep B and Y where they were for the sake of less extra keys in the middle
-- keep the numerical row like it is: numbers without shift, operators with shift
-- use standard `;:`-key on middle row pinky position
-- standard `\|`-key
+- keep B and Y where they were for the trade-of of having less extra keys in the middle
+- OPT: keep the numerical row like it is: numbers without shift, operators with shift
+- standard keys on expected positions: `;:`, `<,`, `>.`, `|\`
+- standard keys on different positions: `/?`, `"'`
+- better availibility for curly braces, brackets
+
+```
+,------,------,------,------,------,------,------,------,------,------,------,------,------,---------,
+|  `~  |  !1  |  @2  |  #3  |  $4  |  %5  |  ^6  |  &7  |  *8  |  (9  |  )0  |  -_  |  =+  |  bkspc  |
+|------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,------|
+|  tab    |  q   |  w   |  e   |  r   |  t   |  {}  |  y   |  u   |  i   |  o   |  p   |  /?  |  |\  |
+|---------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'------|
+|  caps      |  a   |  s   |  d   |  f   |  g   |  "'  |  h   |  j   |  k   |  l   |  :;  |  enter   |
+|------------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'----------|
+|  shift        |  z   |  x   |  c   |  v   |  []  |  b   |  n   |  m   |  <,  |  >.  |       shift  |
+'----,--------,-'---,--'---,--'------'------'------'------'------'----,--'------'--,---,--------,----'
+     |  ctrl  |    |  alt  |                                          |    altgr   |   |  ctrl  |
+     '--------'    '-------'------------------------------------------'------------'   '--------'
+```
+
+### 2021 edit of README.md - my current favorite fluctuates around this:
+```
+,------,------,------,------,------,------,------,------,------,------,------,------,------,---------,
+|  `~  |  !1  |  @2  |  #3  |  $4  |  %5  |  ^6  |  &7  |  *8  |  /9  |  ?0  |  -_  |  =+  |  bkspc  |
+|------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,------|
+|  tab    |  q   |  w   |  e   |  r   |  t   |  {}  |  []  |  u   |  i   |  o   |  p   |  y   |  |\  |
+|---------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'------|
+|  caps      |  a   |  s   |  d   |  f   |  g   |  "'  |  h   |  j   |  k   |  l   |  ,;  |  enter   |
+|------------'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'--,---'----------|
+|  shift        |  z   |  x   |  c   |  v   |  ()  |  <>  |  n   |  m   |  b   |  .:  |       shift  |
+'----,--------,-'---,--'---,--'------'------'------'------'------'----,--'------'--,---,--------,----'
+     |  ctrl  |    |  alt  |                                          |    altgr   |   |  ctrl  |
+     '--------'    '-------'------------------------------------------'------------'   '--------'
+```
 
 Microsoft Keyboard Layout Creator is super simple to use, linux users need to edit just one straightforward file.
 
